@@ -1,4 +1,4 @@
-package spiralMatrix;
+package leetcode54;
 
 import java.util.Arrays;
 
