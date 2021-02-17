@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FindSpiralMatrixFunction {
+	// No matter how big the matrix is, using while loop with 4 steps to get spiral
     public List<Integer> spiralOrder(int[][] matrix) {
         List<Integer> result = new ArrayList<>();
         
