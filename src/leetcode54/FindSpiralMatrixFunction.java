@@ -25,7 +25,7 @@ public class FindSpiralMatrixFunction {
         int left = 0;
         int right = m - 1;
         
-        // Since the result size can't be bigger than n * m 
+        // Loop till reach n * m 
         while(result.size() < n * m){
             // Go through the all the elements in the first row
             for(int i = left; i <= right && result.size() < n * m; i++){
